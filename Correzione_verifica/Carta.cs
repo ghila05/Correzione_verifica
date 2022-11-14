@@ -17,6 +17,12 @@ namespace Correzione_verifica
             _id = id;
             _pin = pin;
         }
+        public Carta(Conto c, string id, string pin)
+        {
+            _id = id;
+            _pin = pin;
+        }
+
 
         public string id
         {
